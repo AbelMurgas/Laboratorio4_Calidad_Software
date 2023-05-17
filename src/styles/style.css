@@ -1,3 +1,5 @@
+/*===========================================================*/
+/*FUNCIONALIDAD 2*/
 /*Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /*------------------------*/
@@ -31,18 +33,23 @@ background-color: rgba(0,212,255,1);
 
 .carousel{
   width: 800px;
-  height:700px;
+  height:750px;
   overflow: hidden;
   border-radius: 2%;
   margin-bottom: 50px;
 }
-.imgs{
+.images{
 
   display: flex;
   flex-direction: row;
   transform: translateY(0);
+  transition: transform 1s ease-in-out;
+  
+  margin-bottom: 10px;
 }
-
+.images img{
+  border-radius: 0 0 5px 5px ;
+}
 .btn{
   border: none;
   background-color: black;
@@ -72,3 +79,10 @@ background-color: rgba(0,212,255,1);
 .reg {
   margin: 1px 0;
 }
+
+/*regresar btn*/
+.reg a{
+  text-decoration: none;
+  color:white;
+}
+/*========================================================*/
