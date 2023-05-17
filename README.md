@@ -42,7 +42,6 @@ Nuestro proyecto utilizaremos 4 paginas principales:
 •	Y aquí te proporciono el desarrollo de las funcionalidades que cada estudiante debe trabajar en su propia rama:
 •	Funcionalidad 1: Agregar un formulario de contacto en la página web.
 <br>
-
 •Funcionalidad 2: Agregar una sección de noticias con un carrusel de imágenes.
 <br>
 •	Funcionalidad 3: Agregar una página de "Acerca de nosotros" con información sobre el equipo de desarrollo, sus nombres y algún detalle genérico, si quieren pueden incluir una foto de cada uno.
