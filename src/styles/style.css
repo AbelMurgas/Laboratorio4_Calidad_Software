@@ -1,22 +1,74 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/*------------------------*/
+
 *{
   box-sizing: border-box;
 }
 html,body{
   height: 100%;
 }
-.title {
+body{
+background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+/*titulo*/
+.title{
 text-align: center;
+Font-weight: bold;
+font-size:20px;
+font-family: 'Roboto Mono', monospace;
+background-color: rgba(0,212,255,1);
 }
-.title_t{
-  Font-weight: bold;
-  font-size:20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+/*Carousel*/
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
-.carousel img{
-  width:800px;
-  height: 600px;
-}
+
 .carousel{
   width: 800px;
-  height:650px;
+  height:700px;
+  overflow: hidden;
+  border-radius: 2%;
+  margin-bottom: 50px;
+}
+.imgs{
+
+  display: flex;
+  flex-direction: row;
+  transform: translateY(0);
+}
+
+.btn{
+  border: none;
+  background-color: black;
+  color: white;
+  padding:1rem 2rem;
+  cursor : pointer;
+  border-radius: 10%;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+/*controls*/
+
+.controls{
+  height:50px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.controlR{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.reg {
+  margin: 1px 0;
 }
