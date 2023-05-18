@@ -15,7 +15,6 @@
 text-align: center;
 Font-weight: bold;
 font-size:20px;
-background-color: rgba(0,212,255,1);
 }
 
 
@@ -44,16 +43,6 @@ background-color: rgba(0,212,255,1);
 }
 .images img{
   border-radius: 0 0 5px 5px ;
-}
-.btn{
-  border: none;
-  background-color: black;
-  color: white;
-  padding:1rem 2rem;
-  cursor : pointer;
-  border-radius: 10%;
-  margin-top:5px;
-  margin-bottom: 5px;
 }
 
 /*controls*/
@@ -202,9 +191,10 @@ footer ul li a.active {
 
 .home-button {
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 10%;
   display: flex;
+  z-index: 100;
   align-items: center;
   justify-content: center;
   width: 60px;
