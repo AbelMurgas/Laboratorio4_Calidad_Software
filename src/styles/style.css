@@ -1,3 +1,86 @@
+
+/*===========================================================*/
+/*FUNCIONALIDAD 2*/
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/*------------------------*/
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*titulo*/
+.title{
+text-align: center;
+Font-weight: bold;
+font-size:20px;
+background-color: rgba(0,212,255,1);
+}
+
+
+/*Carousel*/
+.containerCarousel{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.carousel{
+  width: 800px;
+  height:750px;
+  overflow: hidden;
+  border-radius: 2%;
+  margin-bottom: 50px;
+}
+.images{
+
+  display: flex;
+  flex-direction: row;
+  transform: translateY(0);
+  transition: transform 1s ease-in-out;
+  
+  margin-bottom: 10px;
+}
+.images img{
+  border-radius: 0 0 5px 5px ;
+}
+.btn{
+  border: none;
+  background-color: black;
+  color: white;
+  padding:1rem 2rem;
+  cursor : pointer;
+  border-radius: 10%;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+/*controls*/
+
+.controls{
+  height:50px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.controlR{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.reg {
+  margin: 1px 0;
+}
+
+/*regresar btn*/
+.reg a{
+  text-decoration: none;
+  color:white;
+}
+/*========================================================*/
 html,
 body {
   height: 100%;
@@ -140,3 +223,4 @@ footer ul li a.active {
 .home-button:hover > .fa-home {
   color: #0056b3;
 }
+
