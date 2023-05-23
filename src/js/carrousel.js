@@ -11,7 +11,7 @@ indexImage = 1
 const amountMovePerItem = 800;
 
 // Set interval for carousel movement
-const intervalControlCarrousel = setInterval(moveCarouselNext, 5000);
+const intervalControlCarrousel = setInterval(moveCarouselNext, 3000);
 
 prevBTN.addEventListener("click", () => {
   moveCarouselPrevious()
