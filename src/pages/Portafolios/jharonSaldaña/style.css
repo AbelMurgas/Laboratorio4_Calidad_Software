@@ -1,0 +1,32 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.contenedor{
+  width: 600px;
+  padding: 20px;
+  background-color: #0056b3;
+  color: #fff;
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
+  animation: slideInFromTop 1s ease-in;
+}
+
+@keyframes slideInFromTop{
+  0% {
+      transform: translateY(-100%);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+
